@@ -1,0 +1,126 @@
+/*reglas generales*/
+span {
+    color: #037BC0;
+}
+html {
+    font-size:62.5;
+}
+
+.navbar ul {
+   display: flex; 
+   justify-content: space-between;
+   background-color:#e3f2fd;
+   width: 100%;
+   padding-right: 5%;
+   padding-left: 5%;
+   background-size: cover; 
+   
+}
+.nav li a{
+    color: black;
+    font-size: 1.5rem;
+}
+
+#hero{
+    background-size: cover;
+    
+}
+.card-body {
+    color: white;   
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+   
+}
+
+.titulo1, .titulo2, .titulo3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+h2, h3 {
+    font-size: 4rem;
+    text-align: center;
+    margin:25px 02px 0 2;
+}
+
+
+.card {
+    width:100%;
+}
+
+/* Categorias */
+.c2{
+    text-decoration: none;
+}
+
+.contenedor2 img {
+    transition: transform .2s;
+}
+.contenedor2 img:hover{
+    transform:scale(1.2);
+    overflow: hidden;
+}
+
+footer nav {
+    display: grid;
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+/*Media Query*/
+
+@media (max-width:650px){
+    .container{
+        display: grid;
+        flex-wrap: wrap;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .navbar{
+        display: none;
+    }
+   
+}
+
+@media (min-width:651px){
+    .dropdown{
+        display: none;
+    }
+}
+
+
+
+
+
+/** Reescribir colores */
+.container, .col-xl-4, .card-body {
+    background-color: #037BC0 ;
+}
+
+.btn {
+     background-color: #8cbc00;
+}
+.dropdown .btn{
+    background-color: gray;
+}
+
+.c2 {
+    color: white;
+}
+
+
